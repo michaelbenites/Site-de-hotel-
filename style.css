@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+header > menu > ul{
+    text-align: center;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.774);
+    padding: 60px;
+}
+header > menu > ul > li{
+    display: inline;
+    padding:20px;
+    transition: tranform 2s, border 2s;
+}
+
+header > menu > ul > li:hover{
+    color:rgba(0, 0, 255, 0.445);
+    cursor:pointer;
+    background-color: aquamarine;
+    border: 2px solid black;
+    transform: translate(20px 2px), border;
+}
